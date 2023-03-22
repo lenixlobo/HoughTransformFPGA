@@ -17,5 +17,8 @@ The code is divided into 2 folders:
 ### Prerequisites
 
 For rpi3b+, install the required python dependencies imported in the lanedetect.py file. The dependencies include scipy, matplotlib and openCV.
+Run the lanedetect.py, to get the output.
 
 For FPGA, use the basys3 development board. For simulation, use Vivado (2018.2 and above)
+Make sure you set the correct read and write path location in the tb_modules.v to open and write images.
+In our case, the image 'flower.bmp' is opened from the bmp folder, and the processed file is written in bmp/output as 'output.bmp'
