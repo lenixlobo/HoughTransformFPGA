@@ -29,14 +29,23 @@ Modules.v implements the actual filtering logic.
 Use the sel_module variable to select which filter you wish to apply
 
 To run the code, Run simulation -> Run All
+
 To rerun change code, need to relauch the simulation -> Run All 
 
 Selection Bits and corresponding filters : 
+
 0000 - Gray
+
 0001 - Increase brightness
+
 0010 - Decrease brightness
+
 0011 - Color Inversion
+
 0100 - Red Filter
+
 0101 - Blue Filter
+
 0110 - Green Filter
+
 0111 - No operation. (Rewrites the original image)
