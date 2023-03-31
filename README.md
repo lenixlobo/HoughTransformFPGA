@@ -4,6 +4,9 @@
 ## About The Project
 
 
+Generated Output filters :
+![alt text](https://github.com/lenixlobo/HoughTransformFPGA/blob/main/FPGA/FiltersComputedOnFPGA.png?raw=true)
+
 This repository maintains the code implementing Hough transform on a FPGA
 
 
@@ -31,10 +34,6 @@ Use the sel_module variable to select which filter you wish to apply
 To run the code, Run simulation -> Run All
 
 To rerun change code, need to relauch the simulation -> Run All 
-
-
-Generated Output filters :
-![alt text](https://github.com/lenixlobo/HoughTransformFPGA/blob/main/FPGA/FiltersComputedOnFPGA.png?raw=true)
 
 
 ### Note
