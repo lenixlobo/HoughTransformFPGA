@@ -17,7 +17,7 @@ The code is divided into 2 folders:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Prerequisites
+## Prerequisites
 
 For rpi3b+, install the required python dependencies imported in the lanedetect.py file. The dependencies include scipy, matplotlib and openCV.
 Run the lanedetect.py, to get the output.
@@ -36,7 +36,7 @@ To run the code, Run simulation -> Run All
 To rerun change code, need to relauch the simulation -> Run All 
 
 
-### Note
+## Note
 
 The codes are written in such a way that they read and write to paths defined to my machine, you will need to update those specific to your machine to run.
 
