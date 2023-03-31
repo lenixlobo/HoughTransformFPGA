@@ -1,0 +1,82 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Wed Mar 22 01:19:55 2023
+# Process ID: 6776
+# Current directory: D:/xixi/Image-Processing-master/Image-Processing-master/BIPT
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19628 D:\xixi\Image-Processing-master\Image-Processing-master\BIPT\BIPT.xpr
+# Log file: D:/xixi/Image-Processing-master/Image-Processing-master/BIPT/vivado.log
+# Journal file: D:/xixi/Image-Processing-master/Image-Processing-master/BIPT\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/xixi/Image-Processing-master/Image-Processing-master/BIPT/BIPT.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/xixi/Vivado18/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:07 . Memory (MB): peak = 736.785 ; gain = 102.492
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Wed Mar 22 01:20:44 2023] Launched synth_1...
+Run output will be captured here: D:/xixi/Image-Processing-master/Image-Processing-master/BIPT/BIPT.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Wed Mar 22 01:21:12 2023] Launched impl_1...
+Run output will be captured here: D:/xixi/Image-Processing-master/Image-Processing-master/BIPT/BIPT.runs/impl_1/runme.log
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/xixi/Image-Processing-master/Image-Processing-master/BIPT/BIPT.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_modules' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/xixi/Image-Processing-master/Image-Processing-master/BIPT/BIPT.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj tb_modules_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/xixi/Image-Processing-master/Image-Processing-master/BIPT/BIPT.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/xixi/Vivado18/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto ff3eb27d74514c27a4d7e091e02111b8 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_modules_behav xil_defaultlib.tb_modules xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/xixi/Image-Processing-master/Image-Processing-master/BIPT/BIPT.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_modules_behav -key {Behavioral:sim_1:Functional:tb_modules} -tclbatch {tb_modules.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source tb_modules.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+WARNING: [Wavedata 42-489] Can't add object "/tb_modules/data" to the wave window because it has 4096008 bits, which exceeds the display limit of 65536 bits.  To change the display limit, use the command "set_property display_limit <new limit> [current_wave_config]".
+WARNING: [Wavedata 42-489] Can't add object "/tb_modules/result" to the wave window because it has 40960000 bits, which exceeds the display limit of 65536 bits.  To change the display limit, use the command "set_property display_limit <new limit> [current_wave_config]".
+# run 1000ns
+     -20000
+WARNING: Insufficient data from the input file for $fread
+size -       55254
+startpos :          54
+width -         160; height -         115
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_modules_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:12 ; elapsed = 00:00:07 . Memory (MB): peak = 871.418 ; gain = 0.000
+run all
+Result.bmp is generated 
+
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Mar 22 01:24:22 2023...

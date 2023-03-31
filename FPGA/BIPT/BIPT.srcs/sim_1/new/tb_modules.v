@@ -35,7 +35,8 @@ Modules tb( clk, reset, sel_module,red, green, blue,     // input signlas
                      red_o, green_o, blue_o);
                      
                      
-`define read_fileName "D:\\xixi\\Image-Processing-master\\Image-Processing-master\\bmp\\flower.bmp"
+//Enter the read path here
+`define read_fileName "D:\\xixi\\Image-Processing-master\\Image-Processing-master\\bmp\\bmp_road.bmp"
  localparam ARRAY_LEN = 500*1024;
  
  reg[7:0] data[0: ARRAY_LEN];
@@ -123,6 +124,7 @@ Modules tb( clk, reset, sel_module,red, green, blue,     // input signlas
  
 //Image Write Start
  
+ //Enter the write path here
  `define write_filename "D:\\xixi\\Image-Processing-master\\Image-Processing-master\\bmp\\output\\output.bmp"
  
 task writeBMP;
@@ -153,6 +155,8 @@ initial begin
     clk = 1;
     reset = 1;
     done_in = 0;
+    //Select the filter to be computed here
+    //The computation is defined in Modules.v
     sel_module = 3'b111;
     val = 50;
     

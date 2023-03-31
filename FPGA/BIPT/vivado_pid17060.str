@@ -1,0 +1,141 @@
+/*
+
+Xilinx Vivado v2018.3 (64-bit) [Major: 2018, Minor: 3]
+SW Build: 2405991 on Thu Dec  6 23:38:27 MST 2018
+IP Build: 2404404 on Fri Dec  7 01:43:56 MST 2018
+
+Process ID (PID): 17060
+License: Customer
+
+Current time: 	Fri Mar 31 13:28:10 IST 2023
+Time zone: 	India Standard Time (Asia/Calcutta)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1920x1080
+Screen resolution (DPI): 120
+Available screens: 1
+Available disk space: 42 GB
+Default font: family=Segoe UI,name=Segoe UI,style=plain,size=15
+
+Java version: 	9.0.4 64-bit
+Java home: 	D:/xixi/Vivado18/Vivado/2018.3/tps/win64/jre9.0.4
+Java executable location: 	D:/xixi/Vivado18/Vivado/2018.3/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	LENIX LOBO
+User home directory: C:/Users/LENIX LOBO
+User working directory: D:/Lenix/HoughTransformFPGA/FPGA/BIPT
+User country: 	IN
+User language: 	en
+User locale: 	en_IN
+
+RDI_BASEROOT: D:/xixi/Vivado18/Vivado
+HDI_APPROOT: D:/xixi/Vivado18/Vivado/2018.3
+RDI_DATADIR: D:/xixi/Vivado18/Vivado/2018.3/data
+RDI_BINDIR: D:/xixi/Vivado18/Vivado/2018.3/bin
+
+Vivado preferences file location: C:/Users/LENIX LOBO/AppData/Roaming/Xilinx/Vivado/2018.3/vivado.xml
+Vivado preferences directory: C:/Users/LENIX LOBO/AppData/Roaming/Xilinx/Vivado/2018.3/
+Vivado layouts directory: C:/Users/LENIX LOBO/AppData/Roaming/Xilinx/Vivado/2018.3/layouts
+PlanAhead jar file location: 	D:/xixi/Vivado18/Vivado/2018.3/lib/classes/planAhead.jar
+Vivado log file location: 	D:/Lenix/HoughTransformFPGA/FPGA/BIPT/vivado.log
+Vivado journal file location: 	D:/Lenix/HoughTransformFPGA/FPGA/BIPT/vivado.jou
+Engine tmp dir: 	D:/Lenix/HoughTransformFPGA/FPGA/BIPT/.Xil/Vivado-17060-LAPTOP-8KCDPL3U
+
+Xilinx Environment Variables
+----------------------------
+XILINX: D:/xixi/Vivado18/Vivado/2018.3/ids_lite/ISE
+XILINX_DSP: D:/xixi/Vivado18/Vivado/2018.3/ids_lite/ISE
+XILINX_PLANAHEAD: D:/xixi/Vivado18/Vivado/2018.3
+XILINX_SDK: D:/xixi/Vivado18/SDK/2018.3
+XILINX_VIVADO: D:/xixi/Vivado18/Vivado/2018.3
+XILINX_VIVADO_HLS: D:/xixi/Vivado18/Vivado/2018.3
+
+
+GUI allocated memory:	154 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 637 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// TclEventType: PROJECT_OPEN_DIALOG
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bx (cp):  Open Project : addNotify
+// Opening Vivado Project: D:\Lenix\HoughTransformFPGA\FPGA\BIPT\BIPT.xpr. Version: Vivado v2018.3 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project D:/Lenix/HoughTransformFPGA/FPGA/BIPT/BIPT.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project D:/Lenix/HoughTransformFPGA/FPGA/BIPT/BIPT.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'D:/xixi/Image-Processing-master/Image-Processing-master/BIPT' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/xixi/Vivado18/Vivado/2018.3/data/ip'. 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 92 MB (+94304kb) [00:00:07]
+// [Engine Memory]: 664 MB (+544438kb) [00:00:07]
+// [GUI Memory]: 101 MB (+4571kb) [00:00:08]
+// [GUI Memory]: 111 MB (+4657kb) [00:00:09]
+// [Engine Memory]: 700 MB (+3160kb) [00:00:09]
+// WARNING: HEventQueue.dispatchEvent() is taking  2566 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 765 MB. GUI used memory: 52 MB. Current time: 3/31/23, 1:28:13 PM IST
+// [Engine Memory]: 765 MB (+31280kb) [00:00:10]
+// Tcl Message: open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:05 . Memory (MB): peak = 766.758 ; gain = 149.918 
+// Project name: BIPT; location: D:/Lenix/HoughTransformFPGA/FPGA/BIPT; part: xc7a35tcpg236-1
+dismissDialog("Open Project"); // bx (cp)
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Modules (Modules.v)]", 1, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 3, true); // B (D, cp) - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 3); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, tb_modules (tb_modules.v), tb : Modules (Modules.v)]", 6, false); // B (D, cp)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, tb_modules (tb_modules.v), tb : Modules (Modules.v)]", 6, false, false, false, false, false, true); // B (D, cp) - Double Click
+// [Engine Memory]: 823 MB (+21372kb) [00:00:20]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, tb_modules (tb_modules.v)]", 5, true); // B (D, cp) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, tb_modules (tb_modules.v)]", 5, true, false, false, false, false, true); // B (D, cp) - Double Click - Node
+selectCodeEditor("tb_modules.v", 846, 101); // cl (w, cp)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 25 seconds
+selectCodeEditor("tb_modules.v", 41, 136); // cl (w, cp)
+selectCodeEditor("tb_modules.v", 25, 138); // cl (w, cp)
+selectCodeEditor("tb_modules.v", 12, 164); // cl (w, cp)
+selectCodeEditor("tb_modules.v", 47, 165); // cl (w, cp)
+selectCodeEditor("tb_modules.v", 929, 150); // cl (w, cp)
+selectCodeEditor("tb_modules.v", 0, 157); // cl (w, cp)
+selectCodeEditor("tb_modules.v", 112, 162); // cl (w, cp)
+selectCodeEditor("tb_modules.v", 13, 251); // cl (w, cp)
+// Elapsed time: 10 seconds
+selectCodeEditor("tb_modules.v", 187, 135); // cl (w, cp)
+// Elapsed time: 10 seconds
+selectCodeEditor("tb_modules.v", 309, 163); // cl (w, cp)
+selectCodeEditor("tb_modules.v", 309, 163, false, false, false, false, true); // cl (w, cp) - Double Click
+selectCodeEditor("tb_modules.v", 316, 158); // cl (w, cp)
+selectCodeEditor("tb_modules.v", 316, 158, false, false, false, false, true); // cl (w, cp) - Double Click
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
