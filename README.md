@@ -37,7 +37,9 @@ Generated Output filters :
 ![alt text](https://github.com/lenixlobo/HoughTransformFPGA/blob/main/FPGA/FiltersComputedOnFPGA.png?raw=true)
 
 
+### Note
 
+The codes are written in such a way that they read and write to paths defined to my machine, you will need to update those specific to your machine to run.
 
 
 Selection Bits and corresponding filters : 
