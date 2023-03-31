@@ -32,6 +32,14 @@ To run the code, Run simulation -> Run All
 
 To rerun change code, need to relauch the simulation -> Run All 
 
+
+Generated Output filters :
+https://github.com/lenixlobo/HoughTransformFPGA/blob/main/FPGA/FiltersComputedOnFPGA.png?raw=true
+
+
+
+
+
 Selection Bits and corresponding filters : 
 
 0000 - Gray
