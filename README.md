@@ -42,20 +42,3 @@ Generated Output filters :
 The codes are written in such a way that they read and write to paths defined to my machine, you will need to update those specific to your machine to run.
 
 
-Selection Bits and corresponding filters : 
-
-0000 - Gray
-
-0001 - Increase brightness
-
-0010 - Decrease brightness
-
-0011 - Color Inversion
-
-0100 - Red Filter
-
-0101 - Blue Filter
-
-0110 - Green Filter
-
-0111 - No operation. (Rewrites the original image)
