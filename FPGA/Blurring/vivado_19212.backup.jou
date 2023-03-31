@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Mon Mar 27 23:13:34 2023
+# Process ID: 19212
+# Current directory: D:/xixi/Image-Processing-master/Image-Processing-master/Blurring
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19420 D:\xixi\Image-Processing-master\Image-Processing-master\Blurring\Blurring.xpr
+# Log file: D:/xixi/Image-Processing-master/Image-Processing-master/Blurring/vivado.log
+# Journal file: D:/xixi/Image-Processing-master/Image-Processing-master/Blurring\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/xixi/Image-Processing-master/Image-Processing-master/Blurring/Blurring.xpr
+update_compile_order -fileset sources_1

@@ -1,0 +1,25 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Wed Mar 22 00:59:04 2023
+# Process ID: 15532
+# Current directory: D:/xixi/Image-Processing-master/Image-Processing-master/Blurring
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2780 D:\xixi\Image-Processing-master\Image-Processing-master\Blurring\Blurring.xpr
+# Log file: D:/xixi/Image-Processing-master/Image-Processing-master/Blurring/vivado.log
+# Journal file: D:/xixi/Image-Processing-master/Image-Processing-master/Blurring\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/xixi/Image-Processing-master/Image-Processing-master/Blurring/Blurring.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/Gowtham/Desktop/DS_project/Blurring' since last save.
+Scanning sources...
+Finished scanning sources
+CRITICAL WARNING: [Board 49-67] The board_part definition was not found for digilentinc.com:basys3:part0:1.1. This can happen sometimes when you use custom board part. You can resolve this issue by setting 'board.repoPaths' parameter, pointing to the location of custom board files. Valid board_part values can be retrieved with the 'get_board_parts' Tcl command.
+INFO: [Project 1-230] Project 'Blurring.xpr' upgraded for this version of Vivado.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/xixi/Vivado18/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:08 . Memory (MB): peak = 732.949 ; gain = 109.191
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Mar 22 01:19:34 2023...

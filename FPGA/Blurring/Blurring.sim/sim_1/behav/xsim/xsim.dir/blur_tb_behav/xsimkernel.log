@@ -1,0 +1,4 @@
+Running: xsim.dir/blur_tb_behav/xsimk.exe -simmode gui -wdb blur_tb_behav.wdb -simrunnum 0 -socket 53613
+Design successfully loaded
+Design Loading Memory Usage: 25648 KB (Peak: 25648 KB)
+Design Loading CPU Usage: 62 ms

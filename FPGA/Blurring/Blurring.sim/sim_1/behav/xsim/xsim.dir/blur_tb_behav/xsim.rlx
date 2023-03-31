@@ -1,0 +1,12 @@
+
+{ 
+    crc :  7850501291697074153  , 
+    ccp_crc :  0  , 
+    cmdline : " -wto 358f5351828c47e09b9084c028b72019 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot blur_tb_behav xil_defaultlib.blur_tb xil_defaultlib.glbl" , 
+    buildDate : "Dec  7 2018" , 
+    buildTime : "00:33:28" , 
+    linkCmd : "D:\\xixi\\Vivado18\\Vivado\\2018.3\\data\\..\\tps\\mingw\\6.2.0\\win64.o\\nt\\bin\\gcc.exe -Wa,-W  -O -Wl,--stack,104857600 -o \"xsim.dir/blur_tb_behav/xsimk.exe\"   \"xsim.dir/blur_tb_behav/obj/xsim_0.win64.obj\" \"xsim.dir/blur_tb_behav/obj/xsim_1.win64.obj\" -L\"D:\\xixi\\Vivado18\\Vivado\\2018.3\\lib\\win64.o\" -lrdi_simulator_kernel  -lrdi_simbridge_kernel" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 
